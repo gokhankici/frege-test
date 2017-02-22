@@ -1,0 +1,5 @@
+#!/bin/sh
+
+FREGEC="$HOME/libs/frege/fregec.jar"
+java -cp "classes:$FREGEC" $@
+
